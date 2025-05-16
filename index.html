@@ -162,7 +162,6 @@ document.getElementById('reflectionForm').addEventListener('submit', function(ev
   recDiv.innerText = recommendationText;
 });
 
-// Dummy data for charts
 const gunaData = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June'],
   datasets: [{
@@ -213,7 +212,6 @@ const monthlyConfig = {
   }
 };
 
-// Initialize charts with dummy data
 new Chart(document.getElementById('gunaChart'), gunaConfig);
 new Chart(document.getElementById('monthlyChart'), monthlyConfig);
 </script>
